@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styelsheet.css">
+    <script src="https://kit.fontawesome.com/cc579414fd.js" crossorigin="anonymous"></script>
+    <script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"> </script>
+    <script src="https://kit.fontawesome.com/cc579414fd.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/90bc066b2e.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="icon"
+        href="https://www.sketchappsources.com/resources/source-image/sketch-3-todo-list-app-icon-template.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+    
+    <title>Document</title>
+</head>
+ <body>
+
+    <div id="openModal" class="modalView">
+        <p class="backBtn"><i class="fas fa-arrow-circle-left"></i>Back</p>
+        <p class="newTitlePage"></p>
+        <i class="fas fa-plus-circle newPagePlus"></i>
+    </div>
+
+    <div class="container">
+        <header class="heding">
+            <div id="heading1">
+                <p>Tasks<span class="list"> Lists</span></p>
+            </div>
+            <div id="heading2">
+                <p><i class="fa-solid fa-circle-plus fa-solidicon-plus rightPlus"></i> Add Lists</p>
+            </div>
+        </header>
+    </div>
+    <p class='item'>No items in the list</p>
+    <div id="item2"></div>
+
+    <div id="box" class="content hidden">
+        <div class="box1">
+            <button class="boxclose" onclick="closeBox()"><i class="fas fa-times-circle"></i></button>
+            <p class="title">Add New List</p>
+            <input type="text" class="inputText" placeholder="Add New List"
+                style="text-align:center;font-size:1.2rem;color:lightseagreen;font-weight:bold;">
+            <input type="button" value="ADD" class="addBtn">
+        </div>
+    </div>
+    <div id="box2" class="content hidden1">
+        <div class="box1">
+            <button class="boxclose" onclick="closeBox1()"><i class="fas fa-times-circle"></i></button>
+            <p class="title">Add New Item</p>
+            <input type="text" class="inputBox" placeholder="Add New Item"
+                style="text-align:center;font-size:1.2rem;color:lightseagreen; font-weight:bold;">
+            <input type="button" value="ADD" class="addBtn1">
+        </div>
+    </div>
+    <div class="div hidden"></div>
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>

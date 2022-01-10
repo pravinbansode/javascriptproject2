@@ -1,0 +1,302 @@
+
+.fa-solidicon-plus {
+  color: red;
+  font-size: 45px;
+}
+
+.fa-solidicon {
+  color: rgb(190, 184, 184);
+  size: 40px;
+}
+
+body {
+  position: relative;
+  font-family: "adobe-clean", sans-serif;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+} 
+
+.container {
+  width: 78.5vw;
+  height: 20vh;
+  margin: 2rem 0rem 0.1rem 10rem;
+  position: relative;
+}
+
+.heading {
+  height: 8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3rem 0 0 0;
+}
+
+#heding1 {
+  font-size: 60px;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#heading1>p {
+  font-size: 60px;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#heading2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: 1;
+  color: grey;
+  font-family: Segoe UI;
+}
+
+#heding2>p {
+  font-size: 2.3rem;
+  font-family: 'Roboto', sans-serif;
+  color: gray;
+}
+
+.rightPlus {
+  color: rgb(60, 172, 60);
+  margin: 0 0px 0 0;
+  font-size: 2.8rem;
+}
+
+.task {
+  font-size: 60px;
+  font-weight: 1;
+  color: grey;
+  font-family: Segoe UI;
+}
+
+#item2 {
+  margin: 0.2rem 3rem 0 10rem;
+  width: 80%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.rightPlus:hover {
+  cursor: pointer;
+}
+
+.item {
+  color: darkgrey;
+  margin-top: 100px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.5rem;
+
+}
+
+.content {
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.65);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.hidden {
+  display: none;
+}
+
+.hidden1 {
+  display: none;
+}
+
+.box1 {
+  width: 26rem;
+  height: 13rem;
+  background-color: white;
+  border: 5px solid red;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0.4rem 0.4rem 0.5rem 0.1rem rgb(211, 211, 211);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: auto;
+}
+
+.box1>p {
+  font-size: 1.5rem;
+  color: red;
+}
+
+.box1>p~input[type=text] {
+  width: 20rem;
+  height: 2.5rem;
+  border: 2px solid red;
+  border-radius: 0.5rem;
+  margin: 0.5rem 0 1rem 0;
+  box-shadow: 0.1rem 0.1rem 0.3rem 0.09rem rgb(211, 211, 211);
+}
+
+.addBtn {
+  width: 6.5rem;
+  height: 2.6rem;
+  background-color: rgb(60, 172, 60);
+  color: white;
+  border: 0;
+  border-radius: 1.2rem;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.addBtn1 {
+  width: 6.5rem;
+  height: 2.6rem;
+  background-color: rgb(60, 172, 60);
+  color: white;
+  border: 0;
+  border-radius: 1.2rem;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.boxclose {
+  position: absolute;
+  top: 0.5rem;
+  right: 1rem;
+  font-size: 2rem;
+  color: red;
+  cursor: pointer;
+  border: hidden;
+  background: none;
+}
+
+.div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  filter: blur(8px);
+  z-index: 5;
+}
+
+.pravin {
+  width: 15rem;
+  height: 25rem;
+  border: 1px solid red;
+  border-radius: 8px;
+  margin: 20px;
+  padding-left: 30px;
+  box-shadow: gray 6px 10px 10px;
+  display: inline-table;
+
+}
+
+.pravin>p:first-child {
+  font-size: 1.9rem;
+  color: red;
+  text-align: center;
+  margin: 1.8rem 0.5rem 0.5rem 0.5rem;
+  font-family: Segoe UI;
+  font-weight: 1;
+}
+
+.pravin>hr {
+  width: 80%;
+  float: right;
+  border: 1px solid grey;
+}
+
+.taskBox {
+  width: 15rem;
+  height: 17.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  font-size: 1.2rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-top: 5px;
+}
+
+.taskIcon {
+  display: flex;
+  position: relative;
+  top: 0.1rem;
+  left: -1rem;
+}
+
+.taskPlus {
+  color: rgb(60, 172, 60);
+  font-size: 1.8rem;
+  display: flex;
+  position: relative;
+  cursor: pointer;
+  left: 77%;
+}
+
+.taskTrash {
+  color: red;
+  font-size: 1.8rem;
+  margin: 0 0 0 0.5rem;
+  cursor: pointer;
+}
+
+.taskBox>p {
+  cursor: pointer;
+  margin-top: 4px;
+}
+
+#openModal {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  top: 5rem;
+  font-size: 2.5rem;
+  margin: auto;
+}
+
+.backBtn {
+  color: black;
+  cursor: pointer;
+}
+
+.newPagePlus {
+  color: #1976d2;
+  cursor: pointer;
+}
+
+.newTitlePage {
+  color: red;
+  font-size: 4rem;
+}
+
+.newTitleBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.title {
+  cursor: pointer;
+}
+
+.hiddenPage {
+  margin: 8rem 0 0 33rem;
+}
+
+
